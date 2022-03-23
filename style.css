@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #3f3697;
+  display: flex;
+  justify-content: center;
+  color: #202124;
+  font-weight: 900;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+body > h1 {
+  font-size: 4rem;
+  text-decoration: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #dadce0;
+  text-decoration: none;
+  padding-bottom: 40px;
+  transition: 0.4s;
+  animation: bot 1.2s ease-out forwards;
+}
+@keyframes bot {
+  from {
+    transform: translateY(-1000%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+table {
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: tp 1.5s ease forwards;
+  border-radius: 4px;
+}
+@keyframes tp {
+  from {
+    transform: translateY(170%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+td {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 12px;
+  text-align: center;
+}
+tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cdw {
+  width: 100%;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+  font-weight: 800;
+  width: 80px;
+  border: none;
+  border-radius: 4px;
+  font-size: 2rem;
+  height: 80px;
+  background: #dadce0;
+  font-size: 1.3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.hob {
+  transition: 0.8s;
+}
+.hob:hover {
+  box-shadow: none;
+}
+.cd {
+  width: 100%;
+}
+
+#number-box {
+  cursor: default;
+  width: 100%;
+  height: 2.2rem;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+  background: #dadce0;
+  color: black;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  border: 4px solid black;
+}
+body {
+  color: #202124;
+  text-decoration: none;
+}
